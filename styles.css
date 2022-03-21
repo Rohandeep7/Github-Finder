@@ -1,0 +1,199 @@
+body{
+  box-sizing: border-box;
+  margin:0;
+  background: #232526;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+.navbar{
+  color: white;
+  margin-top: 0;
+
+}
+#brand{
+  padding: 10px;
+  font-size: 30px;
+  font-family: 'Fjalla One', sans-serif;
+}
+.contain{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2%;
+  padding-left: 0;
+  margin:25px ;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  border-radius: 50px;
+  padding-bottom: 0;
+}
+
+#userip{
+  padding-left: 8px;
+  border-radius:8px;
+  outline: none !important
+  font-size: 15pt; height: 40px; width:280px;
+  box-shadow: 0 0 10px #719ECE;
+}
+#userip:focus{
+    outline: none !important;
+    border:1px solid black;
+    box-shadow: 0 0 10px #719ECE;
+}
+.info{
+  font-family: 'Comfortaa',cursive;
+  color: white;
+  padding-bottom: 15px;
+}
+#footer{
+  padding-top: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Fjalla One', sans-serif;
+  color: white;
+  margin:1rem;
+}
+/* .img-css{
+  /*max-width: 21vh;
+  max-height: 21vh;
+  margin-bottom: 30px;
+  border:2px solid black;
+  border-radius: 50%;
+  max-width: 21vh;
+  max-height: 21vh;
+  margin-bottom: 30px;
+} */
+/* .head-card{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 8%;
+  margin-top:12px;
+  border-radius: 25px;
+}
+.card-first{
+  text-align: center;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  background-color: #EEEEEE;
+  color:black;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 1rem;
+  padding-top: 1.5rem;
+}
+.card-next{
+  color: white;
+  padding: 2rem;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  background-color: #212121;
+} */
+/*.btn {
+  background: #030303;
+  background-image: -webkit-linear-gradient(top, #030303, #6e6f70);
+  background-image: -moz-linear-gradient(top, #030303, #6e6f70);
+  background-image: -ms-linear-gradient(top, #030303, #6e6f70);
+  background-image: -o-linear-gradient(top, #030303, #6e6f70);
+  background-image: linear-gradient(to bottom, #030303, #6e6f70);
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 6px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #4e5052;
+  color: white;
+  background-image: -webkit-linear-gradient(top, #4e5052, black);
+  background-image: -moz-linear-gradient(top, #4e5052, black);
+  background-image: -ms-linear-gradient(top, #4e5052, black);
+  background-image: -o-linear-gradient(top, #4e5052, black);
+  background-image: linear-gradient(to bottom, #4e5052, black);
+  text-decoration: none;
+}*/
+
+
+.container{
+  margin: auto;
+  margin-top: 5%;
+  display: flex;
+  align-items: stretch;
+  justify-content:center;
+  flex-direction: row;
+}
+.column{
+  color: white;
+  background-color: #2C3333;
+  margin: 2%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid #2C3333;
+  box-shadow: 5px 5px 8px 8px rgba(0, 0, 0, 0.3);
+}
+.firstSub{
+  text-align: center;
+}
+.secondSub{
+    padding: 2%;
+}
+.user-img{
+  margin-bottom: 20px;
+  border-radius: 50%;
+  padding: 3%;
+  max-width: 100%;
+  height: auto;
+}
+.user-name{
+  font-family: 'League Spartan', sans-serif;
+}
+.btn{
+  margin:1rem 1rem ;
+  transition: 1s;
+}
+.btn:hover{
+  border: 1px solid white;
+}
+.follow{
+  font-family: 'Titillium Web', sans-serif;
+  padding: 20px 5px 0;
+}
+.repo{
+  font-family: 'Titillium Web', sans-serif;
+  padding: 20px 5px 0;
+}
+.repo-rows{
+  display: flex;
+}
+.repos_list{
+  font-family: 'Nanum Gothic', sans-serif;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid white;
+  margin:20px;
+  flex:1;
+}
+.repo-info{
+  margin-top: 6px;
+  padding: 5px;
+}
+.repo-name{
+  text-decoration: none;
+  overflow: hidden;
+}
+@media only screen and (max-width:720px) {
+  .container{
+    flex-direction: column;
+  }
+  .repo-name{
+    overflow: hidden;
+  }
+}
